@@ -1,0 +1,45 @@
+
+@media (max-width: 425px) {
+
+    .cont-title {
+        font-size: 20px;
+    }
+
+    .list {
+        width: 85%;
+    }
+
+    .list ul {
+        font-size: 15px;
+    }
+
+    .img {
+        width: 50px;
+    }
+
+    .text-cont {
+        font-size: 15px;
+    }
+
+    .texto-final {
+        font-size: 10px;
+    }
+
+    .catalogo {
+        flex-wrap: wrap;
+    }
+
+    .div-cat {
+        margin: 80px 0px;
+    }
+
+    .img-cat {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1441px) {
+    body {
+        background-size: 100%;
+    }
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url(fondo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------------------------------- */
+
+.cont-title {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 25px;
+    text-shadow: -2px 3px 0px rgba(254, 193, 54, 1);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------------------------------------------------- */
+
+.catalogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-cat {
+    margin: 80px 80px;
+}
+
+.img-cat {
+    width: 500px;
+    border: 2px #000 solid;
+    border-radius: 15px;
+}
+
+.tit-cat {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------- */
+
+.list{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    padding: 15px;
+    border: 2px #000 solid;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background: rgba(243, 243, 243, 0.1);
+}
+
+
+.comida {
+    width: 35px;
+}
+
+.menu {
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sub-tit {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.list ul {
+    font-size: 17px;
+}
+
+/* ---------------------------------------------------- */
+
+.div-fin {
+    background: #333;
+}
+
+.dev {
+    margin-top: 100px;
+    padding: 35px 0px 10px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #FEC136;
+}
+
+.ubi-img {
+    width: 30px;
+}
+
+.ubi {
+    text-align: center;
+    font-size: 15px;
+    color: #FEC136;
+    padding-bottom: 20px;
+}
+
+.cont-contacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 100px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* ---------------------------------------------------- */
+
+.texto-final{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
